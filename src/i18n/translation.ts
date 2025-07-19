@@ -7,6 +7,8 @@ import { ko } from "./languages/ko";
 import { th } from "./languages/th";
 import { zh_CN } from "./languages/zh_CN";
 import { zh_TW } from "./languages/zh_TW";
+import { de } from "./languages/de";
+import { ru } from "./languages/ru";
 
 export type Translation = {
 	[K in I18nKey]: string;
@@ -28,6 +30,8 @@ const map: { [key: string]: Translation } = {
 	ko_kr: ko,
 	th: th,
 	th_th: th,
+	de,
+	ru,
 };
 
 export function getTranslation(lang: string): Translation {

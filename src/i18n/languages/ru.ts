@@ -1,0 +1,30 @@
+import Key from "../i18nKey";
+import type { Translation } from "../translation";
+
+export const ru: Translation = {
+	[Key.home]: "Главная",
+	[Key.about]: "О нас",
+	[Key.archive]: "Архив",
+	[Key.search]: "Поиск",
+	[Key.tags]: "Теги",
+	[Key.categories]: "Категории",
+	[Key.recentPosts]: "Последние записи",
+	[Key.comments]: "Комментарии",
+	[Key.untitled]: "Без названия",
+	[Key.uncategorized]: "Без категории",
+	[Key.noTags]: "Без тегов",
+	[Key.wordCount]: "слово",
+	[Key.wordsCount]: "слов",
+	[Key.minuteCount]: "минута",
+	[Key.minutesCount]: "минуты",
+	[Key.postCount]: "публикация",
+	[Key.postsCount]: "публикации",
+	[Key.themeColor]: "Цвет темы",
+	[Key.lightMode]: "Светлая",
+	[Key.darkMode]: "Тёмная",
+	[Key.systemMode]: "Система",
+	[Key.more]: "Больше",
+	[Key.author]: "Автор",
+	[Key.publishedAt]: "Опубликовано",
+	[Key.license]: "Лицензия",
+};
